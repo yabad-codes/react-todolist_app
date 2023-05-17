@@ -1,0 +1,38 @@
+.heading {
+  margin: 10px 10px 30px 10px;
+  text-transform: capitalize;
+  border-bottom: 2px solid white;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.input {
+  outline: none;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  color: white;
+  background: rgba(255, 255, 255, 0.201);
+  font-size: 15px;
+  font-weight: 600;
+  width: 70%;
+}
+
+.submit-btn {
+  outline: none;
+  border: none;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.201);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 10px;
+}

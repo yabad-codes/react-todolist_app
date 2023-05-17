@@ -1,0 +1,39 @@
+.todo {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 90%;
+  user-select: none;
+  margin-left: 50px;
+}
+
+.todo:last-child {
+  margin-bottom: 40px;
+}
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.todo-text {
+  background: rgba(255, 255, 255, 0.201);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  width: 76%;
+}
+
+.deletebox {
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+}

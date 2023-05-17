@@ -1,0 +1,27 @@
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 600px;
+  min-height: 40%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  transition: ease 0.7s;
+}
+
+.todo-list:hover {
+  box-shadow: 0 25px 65px rgba(255, 255, 255, 0.1);
+}
+
+.left {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: capitalize;
+  margin: 40px 0px 40px 0px;
+}
